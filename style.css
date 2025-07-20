@@ -68,6 +68,10 @@ label{
     padding: 5px;
 }
 
+h1{
+    text-align: center;
+    color: white;
+}
 input{
     text-align: start;
     margin-left: 15px;
