@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#centerPage">Home</a></li>
+            <li><a href="https://rajatdagar.me">About</a></li>
+            <li>Articles</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <main>
+        <section id="home-section">
+            <div class="content div1"><p>Golden rays spill through the skies,
+Waking dreams in sleepy eyes.
+The world begins a brand new song,
+A place where weary hearts belong.🌻</p></div>
+            <div class="content div2"><p>The breeze hums secrets in the trees,
+A lullaby upon the seas.
+Mountains stand like ancient kings,
+Guarding earth with silent wings.🌿</p></div>
+            <div class="content div3"><p>A single glance, a spark ignites,
+Two hearts drawn close on quiet nights.
+No need for words, no need to speak,
+In love, it's soul to soul we seek.💖 </p></div>
+            <div class="content" id="centerPage"><p>Wander not with steps confined,
+But with a curious, daring mind.
+Chase the stars and forge your fate,
+For dreams will knock if you don’t wait.🌌</p></div>
+            <div class="content div5"><p>Behind the smile, a storm may cry,
+Clouded thoughts drift through the sky.
+But even rain, in time, must cease,
+And leave behind a breath of peace.🌦️</p></div>
+            <div class="content div6"><p>Stillness blooms where chaos fades,
+In quiet hearts, the noise obeys.
+Not all who pause have lost their way,
+Some choose the calm to light their day.🕊️</p></div>
+            <div class="content div7"><p>Fall you might, but rise you must,
+From broken dreams, rebuild your trust.
+Ashes hold the strongest flame,
+A phoenix never leaves the same.🐦‍🔥</p></div>
+            <div class="form">
+                <form id="myForm" >
+                    <div class="formelement"> <label>Email: <input type="email" pattern="[0-9a-z]+@gmail\.com" placeholder="gmail id" title="only gmail address accepted" required/></label></div>
+                    <div class="formelement"> <button id="submit" onclick="handleForm()">Submit</button>
+                        <button id="reset">Reset</button></div>
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <span>&copy;2025 All Rights Reserved.</span>
+        </footer>
+        <script src="./main.js" async></script>
+    </body>
+    </html>
